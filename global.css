@@ -1,11 +1,81 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 body {
-  @apply leading-[normal] m-0;
+  margin: 0;
+  line-height: normal;
 }
-*,
-::before,
-::after {
-  border-width: 0;
+
+:root {
+  /* fonts */
+  --body-small-medium: Inter;
+  --font-boogaloo: Boogaloo;
+
+  /* font sizes */
+  --font-size-77xl: 96px;
+  --font-size-10xl: 29px;
+  --font-size-29xl: 48px;
+  --font-size-45xl: 64px;
+  --font-size-19xl: 38px;
+  --font-size-32xl: 51px;
+  --body-small-medium-size: 14px;
+  --body-medium-regular-size: 16px;
+  --body-large-semibold-size: 18px;
+  --font-size-5xl: 24px;
+  --font-size-lgi: 19px;
+  --text-xl-size: 20px;
+  --text-xs-leading-4-font-medium-size: 12px;
+
+  /* Colors */
+  --default-white: #fff;
+  --color-black: #000;
+  --dark-dark: #111928;
+  --default-gray-900: #111827;
+  --default-gray-500: #6b7280;
+  --primary-text-color: #637381;
+  --primary-color: #3758f9;
+  --default-indigo-900: #312e81;
+  --default-gray-300: #d1d5db;
+  --default-gray-700: #374151;
+  --default-yellow-500: #f59e0b;
+  --default-blue-800: #1e40af;
+  --default-blue-50: #eff6ff;
+  --default-indigo-600: #4f46e5;
+  --primary: #545f71;
+  --default-gray-600: #4b5563;
+  --default-gray-400: #9ca3af;
+  --default-green-500: #10b981;
+  --default-blue-600: #2563eb;
+  --default-gray-50: #f9fafb;
+  --default-blue-500: #3b82f6;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-xl: 20px;
+  --gap-16xl: 35px;
+  --gap-xs: 12px;
+  --gap-5xs: 8px;
+  --gap-9xs: 4px;
+  --gap-5xl: 24px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-7xs: 6px;
+  --padding-mini: 15px;
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+  --padding-6xs: 7px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-7xs: 6px;
+  --br-8xs: 5px;
+  --br-base: 16px;
+  --br-11xl: 30px;
+
+  /* Effects */
+  --shadow-sm: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0px 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0px 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+  --shadow-sm1: 0px 1px 2px rgba(0, 0, 0, 0.05);
 }
